@@ -13,7 +13,7 @@ const Login = () => {
 // ref to lne 42 
     localStorage.setItem("user", JSON.stringify(response.profileObj));
 
-    const {  name, googleId, imageUrl } = response.profileObj;
+    const { name, googleId, imageUrl } = response.profileObj;
 
     const doc = {
       _id: googleId,
